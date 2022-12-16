@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "WwQ0y3kNlXGXWk533nSsmg9TXl120Z8F7W3GDKdL/L/ct1L68SIJiAXXeRdTbxP8vldzuHNG8jc4zNxJeUMqOQ==",
+  "success": true,
+  "projectFilePath": "D:\\SITELUMY\\SITELUMY.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\4Gamers\\.nuget\\packages\\mysqlconnector\\2.1.13\\mysqlconnector.2.1.13.nupkg.sha512",
+    "C:\\Users\\4Gamers\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

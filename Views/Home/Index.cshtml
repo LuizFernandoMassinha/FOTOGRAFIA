@@ -1,0 +1,416 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1 style="text-align:center">LUMY IONUE - FOTOGRAFIA</h1>
+
+<div class="container-fluid margin">
+    <div class="row">
+      <div class="col-7 mx-auto shadow-lg p-3 mb-5 bg-white rounded">
+          <div class="slideshow-container">
+            <div class="MySlides">
+              <div class="numbertext">1 / 7</div>
+                <img src="~/img/criancas.jpg" alt="" width="100%" height="auto object-fit: cover;">
+              </div>
+
+            <div class="MySlides">
+              <div class="numbertext">2 / 7</div>
+                <img src="~/img/fogueira.jpg" alt="" width="100%" height="auto object-fit: cover;">
+            </div>
+
+              <div class="MySlides">
+                <div class="numbertext">3 / 7</div>
+                  <img src="~/img/gael.jpg" alt="" width="100%" height="auto object-fit: cover;">
+               </div>
+
+              <div class="MySlides">
+                <div class="numbertext">4 / 7</div>
+                    <img src="~/img/lucasemarina.jpg" alt="" width="100%" height="auto object-fit: cover;">
+              </div>
+
+              <div class="MySlides">
+                <div class="numbertext">5 / 7</div>
+                  <img src="~/img/lucrescio.jpg" alt="" width="100%" height="auto object-fit: cover;">
+              </div>
+
+              <div class="MySlides">
+                <div class="numbertext">6 / 7</div>
+                  <img src="~/img/marina.jpg" alt="" width="100%" height="auto object-fit: cover;">
+              </div>
+
+              <div class="MySlides">
+                <div class="numbertext">7 / 7</div>
+                  <img src="~/img/YuriPascoa.jpg" alt="" width="100%" height="auto object-fit: cover;">
+              </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+    
+              <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span>
+                  <span class="dot" onclick="currentSlide(2)"></span>
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                  <span class="dot" onclick="currentSlide(4)"></span>
+                  <span class="dot" onclick="currentSlide(5)"></span>
+                  <span class="dot" onclick="currentSlide(6)"></span>
+                  <span class="dot" onclick="currentSlide(7)"></span>
+              </div>
+          </div>
+          <div class="col-5 mx-auto shadow-lg p-3 mb-5 bg-white rounded">
+            <br>
+            <div style="width: 270px">
+              <video width=270 height=480 controls autoplay>
+                <source src="VIDEOLUMY.ogv" type='video/ogg; codecs="theora, vorbis"'/>
+                <source src="VIDEOLUMY.webm" type='video/webm' >
+                <source src="~/img/VIDEOLUMY.mp4" type='video/mp4'>
+              </video>
+             </div>
+            </div>
+            </div>
+
+<h1 style="text-align:center">Galeria de Destaques</h1>
+<br>
+<div class="container-fluid margin2">
+    <div class="row">
+      <div class="col-4 mx-auto">
+          <figure>
+          <button class="border border-primary shadow-lg p-3 mb-5 bg-white rounded" data-toggle="modal" data-target="#teatro">
+          <img class="imagemdestaques" src="~/img/TEATROMARINA/teatrocapa.jpg" width="1000px" height="648px">
+          <h6>TEATRO INFANTIL</h6>
+          <h6>A Fantástica Fábrica de Chocolate </h6>
+          <p>Maio de 2022</p></button>
+          </figure>
+      </div>
+
+      <div class="col-4 mx-auto">
+        <figure>
+        <button class="border border-primary shadow-lg p-3 mb-5 bg-white rounded" data-toggle="modal" data-target="#beach">
+        <img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach19.jpg" width="1000px" height="648px">
+        <h6>ESPORTES</h6>
+        <h6>Inter Clubes Beach Tennis</h6>
+        <p>Junho de 2022</p></button>
+        </figure>
+      </div>
+
+      <div class="col-4 mx-auto visible">
+        <figure>
+        <button class="border border-primary shadow-lg p-3 mb-5 bg-white rounded" data-toggle="modal" data-target="#brunogisele">
+        <img class="imagemdestaques" src="~/img/ENSAIOBRUNOEGISELE/Ensaio Casal - Externa - 11.jpg" width="1000px" height="648px">
+        <h6>ENSAIO DE CASAL</h6>
+        <h6>Bruno e Gisele</h6>
+        <p>Junho de 2022</p></button>
+        </figure>
+      </div>
+    </div>
+  <br>
+    <div class="row">
+      <div class="col-4 mx-auto">
+        <figure>
+        <button  class="border border-primary shadow-lg p-3 mb-5 bg-white rounded" data-toggle="modal" data-target="#daniel">
+          <img class="imagemdestaques" src="~/img/ENSAIODANIEL/Daniel - 02.jpg">
+        <h6>ENSAIO DE ESTÚDIO</h6>
+        <h6>Daniel</h6>
+        <p>09 de Abril de 2022</p></button>
+        </figure>
+      </div>
+
+      <div class="col-4 mx-auto">
+        <figure>
+        <button  class="border border-primary shadow-lg p-3 mb-5 bg-white rounded" data-toggle="modal" data-target="#paloma">
+        <img class="imagemdestaques" src="~/img/ENSAIOPALOMA/Paloma - 01.jpg">
+        <h6>ENSAIO DE ESTÚDIO</h6>
+        <h6>Paloma</h6>
+        <p>09 de Abril de 2022</p></button>
+        </figure>
+      </div>
+      <div class="col-4 mx-auto">
+        <figure>
+        <button  class="border border-primary shadow-lg p-3 mb-5 bg-white rounded" data-toggle="modal" data-target="#eduarda">
+          <img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 01.jpg">
+        <h6>ENSAIO DE ESTÚDIO</h6>
+        <h6>Eduarda Lanza</h6>
+        <p>15 de Setembro de 2022</p></button>
+        </figure>
+      </div>
+    </div>
+</div>
+
+<div class="consideracoes">
+
+ <div>
+<h4>Fale Conosco</h4><br>
+<!-- <form asp-action="faleconosco" method="POST">
+<label asp-for="nomeUsuario">Nome</label>
+<input asp-for="nomeUsuario" required><br><br>
+<label asp-for="emailUsuario">E-mail</label>
+<input asp-for="emailUsuario" required><br><br>
+<label asp-for="TelefoneUsuario">E-mail</label>
+<input asp-for="TelefoneUsuario" required><br><br>
+<label asp-for="mensagemdoUsuario">Mensagem</label><br>
+<textarea name="mensagemdoUsuario" rows="4" cols="25"></textarea> //
+  <br>
+  <input type="reset" value="Limpar">
+  <input type="submit" value="Postar Comentario"> -->
+</div>  
+
+        <div class="contatos">
+            <h3>CONTATO</h3><br>
+            <p>(11) 980479-2426<br>São Paulo-SP</p>
+            <a href=""><img class="logoinstagram" src="~/img/logo Instagram.png"></a>
+            <a href=""><img class="logofacebook" src="~/img/logo facebook.png"></a>
+            <a href=""><img class="logotwitter" src="~/img/logo twitter.png"></a>
+        </div>
+
+        <div>
+            <h3 class="letradolumy">Lumy Ionue</h3>
+            <p class="dizeres">"Momentos inesquecíveis merecem ser eternizados"</p>
+        </div>
+
+        <div> <img class="imagemlumy" src="~/img/Quemsomos.jpg"></div>
+</div>
+
+<!-- Modal -->
+
+<style>
+    .modal .modal-content .modal-header .modal-body .modal-dialog { width: 100%; } 
+</style>
+
+<div class="modal fade" id="teatro" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="text-center">Teatro Infantil - A Fantástica Fábrica de Chocolate</h5>
+      </div>
+      <div class="modal-body">
+
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/TEATROMARINA/teatrocapa.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/TEATROMARINA/Teatro Theodora - 01.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/TEATROMARINA/Teatro Theodora - 02.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/TEATROMARINA/Teatro Theodora - 03.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/TEATROMARINA/Teatro Theodora - 01.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/TEATROMARINA/Teatro Marina - 03.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/TEATROMARINA/Teatro Marina - 05.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/TEATROMARINA/Teatro Marina - 06.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/TEATROMARINA/Teatro Marina - 07.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/TEATROMARINA/Teatro Marina - 08.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/TEATROMARINA/Teatro Marina - 09.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/TEATROMARINA/Teatro Marina - 10.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/TEATROMARINA/Teatro Marina - 11.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/TEATROMARINA/Teatro Marina - 12.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/TEATROMARINA/Teatro Marina - 13.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/TEATROMARINA/Teatro Marina - 14.jpg"></div>
+      </div>
+  </div>
+</div>
+</div>
+
+<div class="modal fade" id="beach" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="TituloModalLongoExemplo">INTER CLUBE BEACH TENNIS</h5>
+      </div>
+      <div class="modal-body">
+       <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach01.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach02.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach03.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach04.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach05.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach06.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach07.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach08.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach09.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach10.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach11.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach12.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach13.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach14.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach15.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach16.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach17.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach18.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach19.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach20.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach21.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach22.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach23.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach24.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach25.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach26.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach27.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach28.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach29.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach30.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach31.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach32.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach33.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach34.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach35.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach36.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach37.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach38.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach39.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach40.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach41.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach42.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach43.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach44.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach45.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach46.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach47.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach48.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach49.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach50.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach51.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach52.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach53.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach54.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach55.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach56.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach57.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach58.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach59.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach60.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach61.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach62.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach63.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/INTERCLUBEBEACHTENNIS/beach64.jpg"></div>      
+      </div>
+  </div>
+</div>
+</div>
+
+<div class="modal fade" id="brunogisele" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="TituloModalLongoExemplo">ENSAIO BRUNO E GISELE</h5>
+      </div>
+      <div class="modal-body">
+         <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOBRUNOEGISELE/Ensaio Casal - Estúdio - 01.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOBRUNOEGISELE/Ensaio Casal - Estúdio - 02.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOBRUNOEGISELE/Ensaio Casal - Estúdio - 03.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOBRUNOEGISELE/Ensaio Casal - Estúdio - 04.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOBRUNOEGISELE/Ensaio Casal - Estúdio - 05.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOBRUNOEGISELE/Ensaio Casal - Estúdio - 06.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOBRUNOEGISELE/Ensaio Casal - Estúdio - 07.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOBRUNOEGISELE/Ensaio Casal - Externa - 01.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOBRUNOEGISELE/Ensaio Casal - Externa - 02.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOBRUNOEGISELE/Ensaio Casal - Externa - 03.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOBRUNOEGISELE/Ensaio Casal - Externa - 04.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOBRUNOEGISELE/Ensaio Casal - Externa - 05.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOBRUNOEGISELE/Ensaio Casal - Externa - 06.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOBRUNOEGISELE/Ensaio Casal - Externa - 07.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOBRUNOEGISELE/Ensaio Casal - Externa - 08.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOBRUNOEGISELE/Ensaio Casal - Externa - 09.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOBRUNOEGISELE/Ensaio Casal - Externa - 10.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOBRUNOEGISELE/Ensaio Casal - Externa - 11.jpg"></div>
+      </div>
+  </div>
+</div>
+</div>
+
+<div class="modal fade" id="daniel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="TituloModalLongoExemplo">ENSAIO DE ESTUDIO - DANIEL</h5>
+      </div>
+      <div class="modal-body">
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIODANIEL/Daniel - 01.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIODANIEL/Daniel - 02.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIODANIEL/Daniel - 03.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIODANIEL/Daniel - 04.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIODANIEL/Daniel - 05.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIODANIEL/Daniel - 06.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIODANIEL/Daniel - 07.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIODANIEL/Daniel - 08.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIODANIEL/Daniel - 09.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIODANIEL/Daniel - 10.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIODANIEL/Daniel - 11.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIODANIEL/Daniel - 12.jpg"></div>
+      </div>
+  </div>
+</div>
+</div>
+
+<div class="modal fade" id="paloma" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="TituloModalLongoExemplo">ENSAIO DE ESTÚDIO - PALOMA</h5>
+      </div>
+      <div class="modal-body">
+       <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOPALOMA/Paloma - 01.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOPALOMA/Paloma - 02.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOPALOMA/Paloma - 03.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOPALOMA/Paloma - 04.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOPALOMA/Paloma - 05.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOPALOMAL/Paloma - 06.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOPALOMA/Paloma - 07.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOPALOMA/Paloma - 08.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOPALOMA/Paloma - 09.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/ENSAIOPALOMA/Paloma - 10.jpg"></div>
+      </div>
+  </div>
+</div>
+</div>
+
+<div class="modal fade" id="eduarda" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="TituloModalLongoExemplo">ENSAIO DE ESTÚDIO - EDUARDA LANZA</h5>
+      </div>
+      <div class="modal-body">
+         <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 01.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 02.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 03.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 04.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 05.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 06.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 07.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 09.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 10.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 12.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 13.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 15.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 16.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 17.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 18.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 19.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 20.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 21.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 22.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 23.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 24.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 25.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 26.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 27.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 28.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 29.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 30.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda - 31.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda Lanza - 32.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda Lanza - 33.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda Lanza - 34.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda Lanza - 35.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda Lanza - 36.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda Lanza - 37.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda Lanza - 38.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda Lanza - 39.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda Lanza - 40.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda Lanza - 41.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda Lanza - 42.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda Lanza - 43.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda Lanza - 44.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda Lanza - 45.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda Lanza - 46.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda Lanza - 47.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda Lanza - 48.jpg"></div>
+        <div style="text-align:center"><img class="imagemdestaques" src="~/img/EduardaLanza/Eduarda Lanza - 49.jpg"></div>
+        
+      </div>
+  </div>
+</div>
+</div>

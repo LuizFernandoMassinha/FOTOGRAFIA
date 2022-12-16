@@ -1,0 +1,225 @@
+.estilobanner{
+  width:"100%";
+  height:"283px";
+}
+
+/*CARROCEL */
+       
+* {box-sizing:border-box}
+         
+.slideshow-container {
+ max-width: 100%;
+ position: relative;
+ max-height: 838px;
+ margin: 2%;
+}
+
+.MySlides{
+ display: none;
+}
+
+ .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+    
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eaeceb;
+    font-size: 45px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: auto;
+   text-align: right;
+  
+  }
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0%;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    right: 91.3%;
+    border-radius: 0px 3px 3px 0px;
+  }
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.8s ease;
+}
+
+.active, .dot:hover {
+  background-color: #1d1c1c;
+}
+       
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4.5s;
+  animation-name: fade;
+  animation-duration: 4.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4;}
+    to {opacity: .1;}   
+}
+
+@keyframes fade {
+    from {opacity: .4;}
+    to {opacity: .1;}   
+}
+
+
+.destaquetitulo{
+text-align: center;
+width: 786px;
+height: 110px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+text-decoration-line: underline;
+color: #000000;
+margin-left: 25%;
+margin-right: 25%;
+}
+
+.consideracoes{
+display: flex;
+justify-content: space-around;
+width: 100%;
+height: auto;
+background: #E0E1E2;
+margin-left: -8%;
+margin-right: auto;
+}
+
+.displaydestaques{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items:flex-start;
+        flex-direction:row;
+        flex-wrap: wrap; 
+        
+}
+
+.imagemdestaques{
+box-sizing: border-box;
+width: 80%;
+height: 80%;
+border: 2px solid #949090;
+}
+
+.logoinstagram{
+width: 48px;
+height: 44px;
+border-radius: 15px;
+}
+
+.logofacebook{
+width: 48px;
+height: 44px;
+mix-blend-mode: darken;
+}
+
+.logotwitter{
+width: 56px;
+height: 44px;
+mix-blend-mode: darken;
+}
+
+.letradolumy{
+text-align:end;
+width: 148px;
+height: 23px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 782;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+font-variation-settings: 'slnt' 0;
+}
+
+.dizeres{
+width: 369px;
+height: 125px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+color: #000000;
+}
+
+.imagemlumy{
+box-sizing: border-box;
+width: 179px;
+height: 217px;
+mix-blend-mode: luminosity;
+}
+
+.menu{
+box-sizing: border-box;
+width: 100%;
+height: auto;
+background: #FFFFFF;    
+font-family: 'arial';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+text-align: center;
+gap:12%;
+}
+  
+
+
+  a:hover{
+    background-color: #b4a6a6;
+  }
+
+  .contatos{
+    text-align: center;
+  }
+  
+.margin{
+  margin-left: 5%;
+}
+
+.margin2{
+  margin-left: -2%;
+}
+

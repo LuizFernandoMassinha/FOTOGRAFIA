@@ -1,0 +1,98 @@
+C:\Users\lulet\OneDrive\Área de Trabalho\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.csprojAssemblyReference.cache
+C:\Users\lulet\OneDrive\Área de Trabalho\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.AssemblyInfoInputs.cache
+C:\Users\lulet\OneDrive\Área de Trabalho\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.AssemblyInfo.cs
+C:\Users\lulet\OneDrive\Área de Trabalho\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.csproj.CoreCompileInputs.cache
+C:\Users\lulet\OneDrive\Área de Trabalho\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lulet\OneDrive\Área de Trabalho\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.RazorAssemblyInfo.cache
+C:\Users\lulet\OneDrive\Área de Trabalho\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.RazorAssemblyInfo.cs
+C:\Users\lulet\OneDrive\Área de Trabalho\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.TagHelpers.input.cache
+C:\Users\lulet\OneDrive\Área de Trabalho\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.TagHelpers.output.cache
+C:\Users\lulet\OneDrive\Área de Trabalho\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.RazorCoreGenerate.cache
+C:\Users\lulet\OneDrive\Área de Trabalho\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.dll
+C:\Users\lulet\OneDrive\Área de Trabalho\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.pdb
+E:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.csprojAssemblyReference.cache
+E:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.AssemblyInfoInputs.cache
+E:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.AssemblyInfo.cs
+E:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.csproj.CoreCompileInputs.cache
+E:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.MvcApplicationPartsAssemblyInfo.cache
+E:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.RazorAssemblyInfo.cache
+E:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.RazorAssemblyInfo.cs
+E:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.TagHelpers.input.cache
+E:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.TagHelpers.output.cache
+E:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.RazorCoreGenerate.cache
+E:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.dll
+E:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.pdb
+E:\SITELUMY\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\SITELUMY\bin\Debug\netcoreapp3.1\appsettings.json
+E:\SITELUMY\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+E:\SITELUMY\bin\Debug\netcoreapp3.1\SITELUMY.exe
+E:\SITELUMY\bin\Debug\netcoreapp3.1\SITELUMY.deps.json
+E:\SITELUMY\bin\Debug\netcoreapp3.1\SITELUMY.runtimeconfig.json
+E:\SITELUMY\bin\Debug\netcoreapp3.1\SITELUMY.runtimeconfig.dev.json
+E:\SITELUMY\bin\Debug\netcoreapp3.1\SITELUMY.dll
+E:\SITELUMY\bin\Debug\netcoreapp3.1\SITELUMY.pdb
+E:\SITELUMY\bin\Debug\netcoreapp3.1\SITELUMY.Views.dll
+E:\SITELUMY\bin\Debug\netcoreapp3.1\SITELUMY.Views.pdb
+E:\SITELUMY\obj\Debug\netcoreapp3.1\Razor\Views\Home\Contato.cshtml.g.cs
+E:\SITELUMY\obj\Debug\netcoreapp3.1\Razor\Views\Home\Estudio.cshtml.g.cs
+E:\SITELUMY\obj\Debug\netcoreapp3.1\Razor\Views\Home\Familia.cshtml.g.cs
+E:\SITELUMY\obj\Debug\netcoreapp3.1\Razor\Views\Home\FestasInfantis.cshtml.g.cs
+E:\SITELUMY\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+E:\SITELUMY\obj\Debug\netcoreapp3.1\Razor\Views\Home\Sobre.cshtml.g.cs
+E:\SITELUMY\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+E:\SITELUMY\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\SITELUMY\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\SITELUMY\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+E:\SITELUMY\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+E:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.RazorTargetAssemblyInfo.cache
+E:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.RazorTargetAssemblyInfo.cs
+E:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.Views.pdb
+E:\SITELUMY\obj\Debug\netcoreapp3.1\staticwebassets\SITELUMY.StaticWebAssets.Manifest.cache
+E:\SITELUMY\obj\Debug\netcoreapp3.1\staticwebassets\SITELUMY.StaticWebAssets.xml
+E:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.genruntimeconfig.cache
+E:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.csproj.CopyComplete
+E:\SITELUMY\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+E:\SITELUMY\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\SITELUMY\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\SITELUMY\bin\Debug\netcoreapp3.1\appsettings.json
+D:\SITELUMY\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\SITELUMY\bin\Debug\netcoreapp3.1\SITELUMY.exe
+D:\SITELUMY\bin\Debug\netcoreapp3.1\SITELUMY.deps.json
+D:\SITELUMY\bin\Debug\netcoreapp3.1\SITELUMY.runtimeconfig.json
+D:\SITELUMY\bin\Debug\netcoreapp3.1\SITELUMY.runtimeconfig.dev.json
+D:\SITELUMY\bin\Debug\netcoreapp3.1\SITELUMY.dll
+D:\SITELUMY\bin\Debug\netcoreapp3.1\SITELUMY.pdb
+D:\SITELUMY\bin\Debug\netcoreapp3.1\SITELUMY.Views.dll
+D:\SITELUMY\bin\Debug\netcoreapp3.1\SITELUMY.Views.pdb
+D:\SITELUMY\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+D:\SITELUMY\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.csprojAssemblyReference.cache
+D:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.AssemblyInfoInputs.cache
+D:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.AssemblyInfo.cs
+D:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.csproj.CoreCompileInputs.cache
+D:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.MvcApplicationPartsAssemblyInfo.cache
+D:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.RazorAssemblyInfo.cache
+D:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.RazorAssemblyInfo.cs
+D:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.TagHelpers.input.cache
+D:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.TagHelpers.output.cache
+D:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.RazorCoreGenerate.cache
+D:\SITELUMY\obj\Debug\netcoreapp3.1\Razor\Views\Home\Contato.cshtml.g.cs
+D:\SITELUMY\obj\Debug\netcoreapp3.1\Razor\Views\Home\Estudio.cshtml.g.cs
+D:\SITELUMY\obj\Debug\netcoreapp3.1\Razor\Views\Home\Familia.cshtml.g.cs
+D:\SITELUMY\obj\Debug\netcoreapp3.1\Razor\Views\Home\FestasInfantis.cshtml.g.cs
+D:\SITELUMY\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\SITELUMY\obj\Debug\netcoreapp3.1\Razor\Views\Home\Sobre.cshtml.g.cs
+D:\SITELUMY\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\SITELUMY\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\SITELUMY\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\SITELUMY\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\SITELUMY\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.RazorTargetAssemblyInfo.cache
+D:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.RazorTargetAssemblyInfo.cs
+D:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.Views.pdb
+D:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.csproj.CopyComplete
+D:\SITELUMY\obj\Debug\netcoreapp3.1\staticwebassets\SITELUMY.StaticWebAssets.Manifest.cache
+D:\SITELUMY\obj\Debug\netcoreapp3.1\staticwebassets\SITELUMY.StaticWebAssets.xml
+D:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.dll
+D:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.pdb
+D:\SITELUMY\obj\Debug\netcoreapp3.1\SITELUMY.genruntimeconfig.cache
